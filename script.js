@@ -42,6 +42,7 @@ function rot13(encodedStr) {
       decodedArr.push(char); // If the character is not in the lookup, keep it unchanged
     }
   }
+	console.log(decodedArr);
   return decodedArr.join('');
 }
 
